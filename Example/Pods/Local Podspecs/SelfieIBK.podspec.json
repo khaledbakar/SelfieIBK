@@ -1,0 +1,22 @@
+{
+  "name": "SelfieIBK",
+  "version": "0.1.0",
+  "summary": "A short description of SelfieIBK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/khaled bakar/SelfieIBK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "khaled bakar": "khaledbakar7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/khaled bakar/SelfieIBK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SelfieIBK/Classes/**/*"
+}

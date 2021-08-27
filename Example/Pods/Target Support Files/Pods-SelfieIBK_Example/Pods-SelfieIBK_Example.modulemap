@@ -1,0 +1,6 @@
+framework module Pods_SelfieIBK_Example {
+  umbrella header "Pods-SelfieIBK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

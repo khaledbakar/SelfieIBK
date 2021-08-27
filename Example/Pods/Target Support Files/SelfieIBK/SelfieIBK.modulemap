@@ -1,0 +1,6 @@
+framework module SelfieIBK {
+  umbrella header "SelfieIBK-umbrella.h"
+
+  export *
+  module * { export * }
+}
