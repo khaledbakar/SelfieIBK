@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SelfieIBK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SelfieIBK.'
+  s.summary          = 'SelfieIBK is framework for taking selfie.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'SelfieFBK is framework for taking pictures specifc (selfie) for example to identify client image you do not need to learn about camera or avfoundation you just press the button or action then moduale will apper take your photo and set it or retake it if you do not like it as you set it the image will send to you to use it wherever you want'
                        DESC
 
   s.homepage         = 'https://github.com/khaled bakar/SelfieIBK'
@@ -28,15 +28,20 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/khaled bakar/SelfieIBK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.1'
 
-  s.source_files = 'SelfieIBK/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "14.1"
+  }
   
   # s.resource_bundles = {
   #   'SelfieIBK' => ['SelfieIBK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'AVFoundation'
   # s.dependency 'AFNetworking', '~> 2.3'
+ # s.dependency 'TinyConstraints', '~> 4.0.0'
 end
