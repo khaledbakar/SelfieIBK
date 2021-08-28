@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'SelfieFBK is framework for taking pictures specifc (selfie) for example to identify client image you do not need to learn about camera or avfoundation you just press the button or action then moduale will apper take your photo and set it or retake it if you do not like it as you set it the image will send to you to use it wherever you want'
                        DESC
 
-  s.homepage         = 'https://github.com/khaled bakar/SelfieIBK'
+  s.homepage         = 'https://github.com/khaledbakar/SelfieIBK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'khaled bakar' => 'khaledbakar7@gmail.com' }
