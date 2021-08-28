@@ -31,6 +31,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.1'
 
   s.source_files = 'Source/**/*.swift'
+  s.exclude_files = 'SelfieIBK/**/*.plist'
+
   s.swift_version = '5.0'
   s.platforms = {
       "ios": "14.1"
