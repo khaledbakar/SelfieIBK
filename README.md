@@ -29,7 +29,7 @@ pod 'SelfieIBK'
 -in your viewcontoller you will use it : 
 first you should 
 ```ruby
-import SelfieFBK
+import SelfieIBK
 ```
 then,use delegate (CaptureOutputPhotoDelegate) to receive the image and implement the func that had.
 at the end,in action or button you will use the frame work put that code 
