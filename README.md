@@ -24,9 +24,9 @@ it, simply add the following line to your Podfile:
 pod 'SelfieIBK'
 ```
 ## Usage
--you drag the framework in your project and embed it and sign from general taget .
--in the plist put camera access permission (Privacy-Camera Usage Description).
--in your viewcontoller you will use it : 
+you drag the framework in your project and embed it and sign from general taget .
+in the plist put camera access permission (Privacy-Camera Usage Description).
+in your viewcontoller you will use it : 
 first you should 
 ```ruby
 import SelfieIBK
